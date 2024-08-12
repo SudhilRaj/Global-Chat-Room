@@ -1,30 +1,8 @@
-# React + TypeScript + Vite
+# Global Chat Room
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Global Chat Room is a responsive chat application created with the Realtime feature of Supabase. Anyone can sign in using the google authentication and get involved in a global chat room.
 
-Currently, two official plugins are available:
+- Made with React + Vite, Supabse, tailwindcss, styled components, typescript.
+- Visit <a href="https://supabase.com/" target="_blank"><b>Supabase</b></a> and setup your project. Their comprehensive documentation will drive you in the desired direction.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<h3>:fire:<a href="https://srk-chatroom.netlify.app/" target="_blank"><b>Live Demo</b></a>:fire:</h3>
